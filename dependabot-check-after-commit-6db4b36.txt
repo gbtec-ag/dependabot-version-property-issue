@@ -1,0 +1,77 @@
+proxy | time="2020-05-14T10:47:25Z" level=info msg="proxy starting" commit=1d28f333720c25e3a515b8fcab112ffba5a05e54
+  proxy | 2020/05/14 10:47:25 Listening (:1080)
+fetcher | yarn config v1.22.4
+fetcher | success Set "cafile" to "/etc/ssl/certs/ca-certificates.crt".
+fetcher | Done in 0.03s.
+fetcher | warning: parser/current is loading parser/ruby26, which recognizes
+fetcher | warning: 2.6.6-compliant syntax, but you are running 2.6.5.
+fetcher | warning: please see https://github.com/whitequark/parser#compatibility-with-ruby-mri.
+fetcher | INFO <job_33190460> Starting job processing
+  proxy | 2020/05/14 10:47:30 GET https://api.github.com:443/repos/gbtec-ag/dependabot-version-property-issue
+  proxy | 2020/05/14 10:47:30 * authenticating github api request
+  proxy | 2020/05/14 10:47:30 200 https://api.github.com:443/repos/gbtec-ag/dependabot-version-property-issue
+  proxy | 2020/05/14 10:47:30 GET https://api.github.com:443/repos/gbtec-ag/dependabot-version-property-issue/git/refs/heads/master
+  proxy | 2020/05/14 10:47:30 * authenticating github api request
+  proxy | 2020/05/14 10:47:30 200 https://api.github.com:443/repos/gbtec-ag/dependabot-version-property-issue/git/refs/heads/master
+  proxy | 2020/05/14 10:47:30 GET https://api.github.com:443/repos/gbtec-ag/dependabot-version-property-issue/contents/pom.xml?ref=6db4b3638dd9e042b7e08147aab10206a556c9f3
+  proxy | 2020/05/14 10:47:30 * authenticating github api request
+  proxy | 2020/05/14 10:47:30 200 https://api.github.com:443/repos/gbtec-ag/dependabot-version-property-issue/contents/pom.xml?ref=6db4b3638dd9e042b7e08147aab10206a556c9f3
+fetcher | INFO <job_33190460> Finished job processing
+  proxy | time="2020-05-14T10:47:32Z" level=info msg="proxy starting" commit=1d28f333720c25e3a515b8fcab112ffba5a05e54
+  proxy | 2020/05/14 10:47:32 Listening (:1080)
+updater | yarn config v1.22.4
+updater | success Set "cafile" to "/etc/ssl/certs/ca-certificates.crt".
+updater | Done in 0.03s.
+updater | warning: parser/current is loading parser/ruby26, which recognizes
+updater | warning: 2.6.6-compliant syntax, but you are running 2.6.5.
+updater | warning: please see https://github.com/whitequark/parser#compatibility-with-ruby-mri.
+updater | INFO <job_33190460> Starting job processing
+updater | INFO <job_33190460> Starting update job for gbtec-ag/dependabot-version-property-issue
+updater | INFO <job_33190460> Checking if org.springframework.boot:spring-boot-dependencies 2.2.1.RELEASE needs updating
+  proxy | 2020/05/14 10:47:56 GET https://repo.maven.apache.org:443/maven2/org/springframework/boot/spring-boot-dependencies/maven-metadata.xml
+  proxy | 2020/05/14 10:47:56 200 https://repo.maven.apache.org:443/maven2/org/springframework/boot/spring-boot-dependencies/maven-metadata.xml
+  proxy | 2020/05/14 10:47:56 HEAD https://repo.maven.apache.org:443/maven2/org/springframework/boot/spring-boot-dependencies/2.2.7.RELEASE/spring-boot-dependencies-2.2.7.RELEASE.pom
+  proxy | 2020/05/14 10:47:56 200 https://repo.maven.apache.org:443/maven2/org/springframework/boot/spring-boot-dependencies/2.2.7.RELEASE/spring-boot-dependencies-2.2.7.RELEASE.pom
+updater | INFO <job_33190460> Latest version is 2.2.7.RELEASE
+updater | INFO <job_33190460> Requirements to unlock own
+updater | INFO <job_33190460> Requirements update strategy 
+updater | INFO <job_33190460> Updating org.springframework.boot:spring-boot-dependencies from 2.2.1.RELEASE to 2.2.7.RELEASE
+updater | INFO <job_33190460> Submitting org.springframework.boot:spring-boot-dependencies pull request for creation
+updater | INFO <job_33190460> Checking if org.projectlombok:lombok  needs updating
+  proxy | 2020/05/14 10:48:17 GET https://repo.maven.apache.org:443/maven2/org/projectlombok/lombok/maven-metadata.xml
+  proxy | 2020/05/14 10:48:17 200 https://repo.maven.apache.org:443/maven2/org/projectlombok/lombok/maven-metadata.xml
+  proxy | 2020/05/14 10:48:17 HEAD https://repo.maven.apache.org:443/maven2/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar
+  proxy | 2020/05/14 10:48:17 200 https://repo.maven.apache.org:443/maven2/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar
+updater | INFO <job_33190460> Latest version is 1.18.12
+updater | INFO <job_33190460> No update needed for org.projectlombok:lombok 
+updater | INFO <job_33190460> Checking if com.google.guava:guava 28.1-jre needs updating
+  proxy | 2020/05/14 10:48:17 GET https://repo.maven.apache.org:443/maven2/com/google/guava/guava/maven-metadata.xml
+  proxy | 2020/05/14 10:48:17 200 https://repo.maven.apache.org:443/maven2/com/google/guava/guava/maven-metadata.xml
+  proxy | 2020/05/14 10:48:17 HEAD https://repo.maven.apache.org:443/maven2/com/google/guava/guava/29.0-jre/guava-29.0-jre.jar
+  proxy | 2020/05/14 10:48:17 200 https://repo.maven.apache.org:443/maven2/com/google/guava/guava/29.0-jre/guava-29.0-jre.jar
+updater | INFO <job_33190460> Latest version is 29.0-jre
+updater | INFO <job_33190460> Requirements to unlock own
+updater | INFO <job_33190460> Requirements update strategy 
+updater | INFO <job_33190460> Updating com.google.guava:guava from 28.1-jre to 29.0-jre
+updater | INFO <job_33190460> Submitting com.google.guava:guava pull request for creation
+updater | INFO <job_33190460> Checking if org.springframework.cloud:spring-cloud-dependencies Hoxton.SR1 needs updating
+  proxy | 2020/05/14 10:48:37 GET https://repo.maven.apache.org:443/maven2/org/springframework/cloud/spring-cloud-dependencies/maven-metadata.xml
+  proxy | 2020/05/14 10:48:37 200 https://repo.maven.apache.org:443/maven2/org/springframework/cloud/spring-cloud-dependencies/maven-metadata.xml
+  proxy | 2020/05/14 10:48:37 HEAD https://repo.maven.apache.org:443/maven2/org/springframework/cloud/spring-cloud-dependencies/Hoxton.SR4/spring-cloud-dependencies-Hoxton.SR4.pom
+  proxy | 2020/05/14 10:48:37 200 https://repo.maven.apache.org:443/maven2/org/springframework/cloud/spring-cloud-dependencies/Hoxton.SR4/spring-cloud-dependencies-Hoxton.SR4.pom
+updater | INFO <job_33190460> Latest version is Hoxton.SR4
+updater | INFO <job_33190460> Requirements to unlock own
+updater | INFO <job_33190460> Requirements update strategy 
+updater | INFO <job_33190460> Updating org.springframework.cloud:spring-cloud-dependencies from Hoxton.SR1 to Hoxton.SR4
+updater | INFO <job_33190460> Submitting org.springframework.cloud:spring-cloud-dependencies pull request for creation
+updater | INFO <job_33190460> Checking if commons-io:commons-io 2.5 needs updating
+  proxy | 2020/05/14 10:48:57 GET https://repo.maven.apache.org:443/maven2/commons-io/commons-io/maven-metadata.xml
+  proxy | 2020/05/14 10:48:57 200 https://repo.maven.apache.org:443/maven2/commons-io/commons-io/maven-metadata.xml
+  proxy | 2020/05/14 10:48:58 HEAD https://repo.maven.apache.org:443/maven2/commons-io/commons-io/2.6/commons-io-2.6.jar
+  proxy | 2020/05/14 10:48:58 200 https://repo.maven.apache.org:443/maven2/commons-io/commons-io/2.6/commons-io-2.6.jar
+updater | INFO <job_33190460> Latest version is 2.6
+updater | INFO <job_33190460> Requirements to unlock own
+updater | INFO <job_33190460> Requirements update strategy 
+updater | INFO <job_33190460> Updating commons-io:commons-io from 2.5 to 2.6
+updater | INFO <job_33190460> Submitting commons-io:commons-io pull request for creation
+updater | INFO <job_33190460> Finished job processing
