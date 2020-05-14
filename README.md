@@ -39,3 +39,13 @@
 * 5 dependencies available in pom (1 dependency is managed).
 * 5 dependencies were checked.
 * 1 dependency ('spring-boot-dependencies') is checked again but Dependabot believes that a PR is already available (obviously the closed one).
+
+## rename 'guava' version property to 'project.a.b.c.d.version' (after commit 244b29a)
+* 5 dependencies available in pom (1 dependency is managed).
+* 4 dependencies were checked.
+* 1 dependency ('guava') is not checked anymore.
+* 2 PRs still open.
+* 2 PR closed.
+* Got two emails.
+    * One email contained 'Looks like com.google.guava:guava is no longer a dependency, so this is no longer needed.'
+    * One email contained 'Closed #2.'
