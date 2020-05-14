@@ -18,8 +18,8 @@
 * 1 PR closed.
 
 * Got two emails.
-1. email contained 'Looks like org.springframework.boot:spring-boot-dependencies is no longer a dependency, so this is no longer needed.'
-2. email contained 'Closed #1.'
+** One email contained 'Looks like org.springframework.boot:spring-boot-dependencies is no longer a dependency, so this is no longer needed.'
+** One email contained 'Closed #1.'
 
 ## checked fourth time (after commit 542df3f)
 * 5 dependencies available in pom (1 dependency is managed).
