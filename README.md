@@ -1,42 +1,41 @@
 # commit history and behavior
 
-## checked first time (after commit 6db4b36)
+## initial commit containing a pom with 5 dependencies (after commit 6db4b36)
 * 5 dependencies available in pom (1 dependency is managed). 
 * 5 dependencies were checked.
 * 4 PRs created.
 
-## checked second time (after commit 42e55cb)
+## define 'guava' version as property (after commit 42e55cb)
 * 5 dependencies available in pom (1 dependency is managed).
 * 5 dependencies were checked.
 * 4 PRs still open.
 
-## checked third time (after commit 797dcef)
+## rename 'spring-boot' version property to 'project.dependency.spring-boot.version' (after commit 797dcef)
 * 5 dependencies available in pom (1 dependency is managed).
 * 4 dependencies were checked.
 * 1 dependency ('spring-boot-dependencies') is not checked anymore.
 * 3 PRs still open.
 * 1 PR closed.
-
 * Got two emails.
- 1. One email contained 'Looks like org.springframework.boot:spring-boot-dependencies is no longer a dependency, so this is no longer needed.'
- 2. One email contained 'Closed #1.'
+    * One email contained 'Looks like org.springframework.boot:spring-boot-dependencies is no longer a dependency, so this is no longer needed.'
+    * One email contained 'Closed #1.'
 
-## checked fourth time (after commit 542df3f)
+## rename 'spring-boot' version property back to 'spring-boot.version' (after commit 542df3f)
 * 5 dependencies available in pom (1 dependency is managed).
 * 5 dependencies were checked.
 * 1 dependency ('spring-boot-dependencies') is checked again but Dependabot believes that a PR is already available (obviously the closed one).
 
-## checked fifth time (after commit 54904f2)
+## check a second time after renaming 'spring-boot' version property back to 'spring-boot.version' (after commit 54904f2)
 * 5 dependencies available in pom (1 dependency is managed).
 * 5 dependencies were checked.
 * 1 dependency ('spring-boot-dependencies') is checked again but Dependabot believes that a PR is already available (obviously the closed one).
 
-## checked sixth time (after commit 54904f2)
+## rename 'spring-boot' version property back to 'spring.version' (after commit 97c47f9)
 * 5 dependencies available in pom (1 dependency is managed).
 * 5 dependencies were checked.
 * 1 dependency ('spring-boot-dependencies') is checked again but Dependabot believes that a PR is already available (obviously the closed one).
 
-## checked seventh time (after commit 10a1383)
+## rename 'guava' version property to 'a.b.c.d.version' (after commit 10a1383)
 * 5 dependencies available in pom (1 dependency is managed).
 * 5 dependencies were checked.
 * 1 dependency ('spring-boot-dependencies') is checked again but Dependabot believes that a PR is already available (obviously the closed one).
