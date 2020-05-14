@@ -49,3 +49,8 @@
 * Got two emails.
     * One email contained 'Looks like com.google.guava:guava is no longer a dependency, so this is no longer needed.'
     * One email contained 'Closed #2.'
+
+## rename 'guava' version property back to 'guava.version' (after commit 545d69c)
+* 5 dependencies available in pom (1 dependency is managed).
+* 5 dependencies were checked.
+* 1 dependency ('guava') is checked again but Dependabot believes that a PR is already available (obviously the closed one).
