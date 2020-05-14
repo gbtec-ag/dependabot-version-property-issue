@@ -25,3 +25,8 @@ Got two emails.
 5 dependencies available in pom (1 dependency is managed).
 5 dependencies were checked.
 1 dependency ('spring-boot-dependencies') is checked again but Dependabot believes that a PR is already available (obviously the closed one).
+
+## checked fifth time (after commit 54904f2)
+5 dependencies available in pom (1 dependency is managed).
+5 dependencies were checked.
+1 dependency ('spring-boot-dependencies') is checked again but Dependabot believes that a PR is already available (obviously the closed one).
