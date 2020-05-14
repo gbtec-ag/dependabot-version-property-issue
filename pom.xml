@@ -9,6 +9,8 @@
     <name>dependabot-version-property-issue</name>
 
     <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <commons-io.version>2.5</commons-io.version>
         <guava.version>28.1-jre</guava.version>
         <project.dependency.spring-boot.version>2.2.1.RELEASE</project.dependency.spring-boot.version>
