@@ -35,3 +35,8 @@
 * 5 dependencies available in pom (1 dependency is managed).
 * 5 dependencies were checked.
 * 1 dependency ('spring-boot-dependencies') is checked again but Dependabot believes that a PR is already available (obviously the closed one).
+
+## checked seventh time (after commit 10a1383)
+* 5 dependencies available in pom (1 dependency is managed).
+* 5 dependencies were checked.
+* 1 dependency ('spring-boot-dependencies') is checked again but Dependabot believes that a PR is already available (obviously the closed one).
