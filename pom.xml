@@ -12,7 +12,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <commons-io.version>2.5</commons-io.version>
-        <a.b.c.d.version>28.1-jre</a.b.c.d.version>
+        <project.a.b.c.d.version>28.1-jre</project.a.b.c.d.version>
         <spring.version>2.2.1.RELEASE</spring.version>
     </properties>
 
@@ -43,7 +43,7 @@
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
-            <version>${a.b.c.d.version}</version>
+            <version>${project.a.b.c.d.version}</version>
         </dependency>
         <dependency>
             <groupId>commons-io</groupId>
