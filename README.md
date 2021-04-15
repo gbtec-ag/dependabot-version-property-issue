@@ -1,3 +1,7 @@
+*We disabled Dependabot to reduce the noise in our environment.*
+
+*If necessary to enable it again rename the config file in folder `.dependabot` to `config.yml`!*
+
 # commit history and behavior
 
 ## initial commit containing a pom with 5 dependencies ([#6db4b36](https://github.com/gbtec-ag/dependabot-version-property-issue/commit/6db4b3638dd9e042b7e08147aab10206a556c9f3))
